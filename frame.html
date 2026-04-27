@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my simple webpage</title>
+</head>
+<body>
+    <h1>My simple webpage</h1>
+    <h2>1.Anchor Tag</h2>
+    <pre>Click the links below to visit different pages</pre>
+    <p>
+        <a href="home.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="contact.html">Contact Us</a> |
+        <a href="service.html">Our Services</a>
+    </p>
+    <p>you can also visit <a href="https://openai.com/" target="_blank">OpenAI</a></p>
+
+    <h1>2.Text Formatting Tags</h1>
+    <p>HTML provides various tags to format text.</p>
+    <p>This is<b>bold</b>text using b tag.</p>
+    <p>This is<i>italic</i>text using i tag.</p>
+    <p>This is<em>emphasized</em>text using b tag.</p>
+    <p>This is<strong>strong</strong>text using b tag.</p>
+    <p>This is<mark>Highlight</mark>text using b tag.</p>
+    <p>H<sub>2</sub>is water</p>
+    <p>E=mc<sup>2</sup></p>
+    <h1>3.Lists</h1>
+    <h3>Unordered List(Fruits)</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+    <h3>Ordered List(Steps)</h3>
+    <ol>
+        <li>Wake up</li>
+        <li>Brush your teeth</li>
+        <li>Have breakfast</li>
+        <li>Go to School</li>
+    </ol>
+    <h1>4.Table with Colspan and Rowspan</h1>
+    <table border="1">
+            <tr>
+                <td colspan="4">Students Information</td>
+                <td rowspan="2">Contact No.</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Course</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alice</td>
+                <td>Computer Science</td>
+                <td>20</td>
+                <td>123-456-7890</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bob</td>
+                <td>Electronics</td>
+                <td>21</td>
+                <td>123-456-7890</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td>charlie</td>
+                <td>Mechnacal</td>
+                <td>22</td>
+                <td rowspan="2">123-456-7890</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Civil</td>
+                <td>23</td>
+            </tr>
+    </table>
+    <h1>5.Image</h1>
+    <img src="beach.jpeg" alt="image here"><br>
+    This is a sample image.
+    <h1>6.Video</h1>
+    <video src="beach.mp4" autoplay controls muted width="500px"></video><br>
+    This is a sample video.<br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eoo4HzILB-M?si=HK1uZZ6RIORdN3CR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+    This is a inframe video
+
+    <h1>7.Form</h1>
+    <form>
+        <input type="text" placeholder="Enter your name"><br><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+        <input type="password" placeholder="Enter your password"><br><br>
+        Gender:
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">other<br><br>
+        select courses:
+        <select>
+            
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Data analytics">Data analytics</option>
+        </select><br><br>
+        Address :
+        <input type="textarea" rows="4" column="5" placeholder="enter address"><br><br>
+        Hobbies :
+        <input type="checkbox" value="reading">reading<br><br>
+        <input type="checkbox" value="Travelling">Travelling<br><br>
+        <input type="checkbox" value="Sports">Sports<br><br>
+        <input type="checkbox" value="Music">Music<br><br>
+        Upload file:
+        <input type="file"><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
